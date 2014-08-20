@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+ <head>
+ 	<meta charset = "utf-8">
+	<title>Laboratorio 1</title>
+ </head>
+
+ <body>
+ 	
+  	<header>
+    	<h1>Agregar Libros</h1>
+    	<hr>
+ 		<img src = "kids.jpg" height="172" width="295" alt = "KidsImage">
+  	</header>
+
+  	<hr>
+    <nav>
+      <a class="button" href="principal.html">Principal</a>
+      <a class="button" href="mostrarlibros.html">Mostrar</a>
+      <a class="button" href="agregarlibros.html">Agregar</a>
+    </nav>
+    <hr>
+
+    <h2>Datos del Libros</h2>
+
+    <form method = "get" action = "datosenviados.html">
+
+    Título: <input type="text" name="titulo" required><br><br>
+    Autores: <input type="text" name="autores" required><br><br>
+    Año: <input type="number" name="año" required><br><br><br>
+   
+    Versión:<br> 
+    <input type="checkbox" name="version" value="Impresa" required> Impresa<br> 
+    <input type="checkbox" name="version" value="Digital" required> Digital<br><br>
+    <input type="radio" name="idioma" value="Ingles" required> Ingles<br>
+    <input type="radio" name="idioma" value="Español" required> Español<br>
+
+    <p><label>Área: 
+            <select name="area">
+              <option>Infantil</option>
+              <option>Ciencia</option>
+              <option>Español</option>
+              <option>Matemáticas</option>
+              <option>Ficción</option>
+            </select> <br></label></p>
+
+    <p><label>Comentarios:<br>
+    <textarea rows="5" cols="50">
+    </textarea><br></label></p>
+
+    <p>
+      <button type="submit" value="Submit">Enviar</button>
+      <button type="reset" value="Reset">Limpiar</button>
+    </p>
+
+    </form>
+
+
+   <hr>
+    <footer>
+      <p>Realizado por Arely Nahle.</p>
+    </footer>
+    <hr>
+
+ </body>
+</html>
